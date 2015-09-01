@@ -2,7 +2,7 @@
   "name": "atom-alias-command",
   "main": "./lib/atom-alias-command",
   "version": "0.2.0",
-  "description": "A short description of your package",
+  "description": "Register existing commands with new names",
   "keywords": [
     "alias",
     "command"
