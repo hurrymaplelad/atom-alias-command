@@ -6,12 +6,12 @@ Useful if you're conditioned to look for a different name, like `Package Control
 ## Getting Started
 
 ```sh
-> npm install -g atom-alias-command
+> apm install atom-alias-command
 ```
 
 From you init.coffee (You can open this via `Application: Open Your Init Script`):
 ```coffee
-aliasCommand = require 'atom-alias-command'
+aliasCommand = atom.packages.getLoadedPackage('atom-alias-command').requireMainModule()
 
 aliasCommand 'tree-view:move',
   orig: 'tree-view:rename'
