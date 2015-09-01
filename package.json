@@ -1,7 +1,7 @@
 {
   "name": "atom-alias-command",
   "main": "./lib/atom-alias-command",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Register existing commands with new names",
   "keywords": [
     "alias",
