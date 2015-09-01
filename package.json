@@ -1,0 +1,19 @@
+{
+  "name": "atom-alias-command",
+  "main": "./lib/atom-alias-command",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+    "alias", "command"
+  ],
+  "activationCommands": {
+    "atom-workspace": "atom-alias-command:toggle"
+  },
+  "repository": "https://github.com/hurrymaplelad/atom-alias-command",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
