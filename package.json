@@ -1,15 +1,12 @@
 {
   "name": "alias-command",
   "main": "./lib/atom-alias-command",
-  "version": "0.2.2",
+  "version": "1.0.0",
   "description": "Register existing commands with new names",
   "keywords": [
     "alias",
     "command"
   ],
-  "activationCommands": {
-    "atom-workspace": "atom-alias-command:toggle"
-  },
   "repository": "https://github.com/hurrymaplelad/atom-alias-command",
   "license": "MIT",
   "engines": {
