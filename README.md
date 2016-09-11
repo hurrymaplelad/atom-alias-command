@@ -24,6 +24,11 @@ aliasCommand 'package-control:install',
 aliasCommand 'grammar-selector:set-syntax',
   orig: 'grammar-selector:show'
   scope: 'atom-editor'
+
+# Composed commands
+# You can pass it an array of commands
+aliasCommand 'wq',
+orig: ['core:save', 'core:close']
 ```
 
 ## Running Tests
